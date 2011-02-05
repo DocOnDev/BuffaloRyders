@@ -3,29 +3,52 @@ body {
     margin: 0;
     padding: 0;
 }
+.main-container {
+    margin: auto;
+    width: 900px;
+}
 .header {
     background-color: #7901aa;
 }
-
 .container {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    padding-left: 80px;
 }
-
-.footer {
-    height: 100px;
+#announce {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 40px;
+    width: 600px;
+    border: 2px solid #dfb300;
     background-color: #ffd300;
 }
-.header .navigation, .header .navigation li {
+.image-block {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+.footer {
+    height: 30px;
+    background-color: #ffd300;
+}
+.navigation, .navigation li {
     list-style: none;
     margin: 0;
     padding: 10px 15px;
 }
-.header .navigation {
+.navigation {
     text-align: center;
 }
-.header .navigation li {
+.navigation li {
     display: inline;
     margin-right: .75em;
 }
-.header .navigation li.last {
+.navigation li.last {
     margin-right: 0;
 }
