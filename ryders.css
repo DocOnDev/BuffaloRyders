@@ -16,15 +16,6 @@ body {
     overflow: auto;
     padding-left: 80px;
 }
-#announce {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    height: 40px;
-    width: 600px;
-    border: 2px solid #dfb300;
-    background-color: #ffd300;
-}
 .image-block {
     float: left;
     height: 200px;
