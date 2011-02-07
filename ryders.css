@@ -54,3 +54,21 @@ body {
 .navigation li.last {
     margin-right: 0;
 }
+#joe {
+    background-image: url('Images/Joe_bottom_left.png');
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 185px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+#sean {
+    background-image: url('Images/Sean_Bottom_Right.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 250px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
