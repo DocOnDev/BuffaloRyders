@@ -1,5 +1,7 @@
 body {
     background-color: #f2ed9e;
+    background-image: url('Images/Top_Shade_Middle.png');
+    background-repeat: repeat-x;
     margin: 0;
     padding: 0;
 }
