@@ -8,7 +8,16 @@ body {
     width: 900px;
 }
 .header {
-    background-color: #7901aa;
+}
+#top-left-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#top-right-image {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .container {
     position: relative;
