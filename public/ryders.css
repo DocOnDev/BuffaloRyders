@@ -102,7 +102,7 @@ body {
     width: 100%;
 }
 #joe {
-    background-image: url('Images/Joe_bottom_left.png');
+    background-image: url('images/Joe_bottom_left.png');
     background-repeat: no-repeat;
     height: 350px;
     width: 185px;
@@ -111,7 +111,7 @@ body {
     left: 0px;
 }
 #sean {
-    background-image: url('Images/Sean_Bottom_Right.png');
+    background-image: url('images/Sean_Bottom_Right.png');
     background-repeat: no-repeat;
     height: 300px;
     width: 250px;
