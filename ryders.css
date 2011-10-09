@@ -32,6 +32,9 @@ body {
     padding-bottom: 40px;
     padding-top: 30px;
 }
+.container h1 {
+    text-align: center;
+}
 .image-block {
     float: left;
     height: 200px;
