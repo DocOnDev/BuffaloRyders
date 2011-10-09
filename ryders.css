@@ -1,16 +1,19 @@
 body {
-    background-color: #f2ed9e;
+    background-color: #181717;
+    background-image: url('images/background.jpg')
     background-repeat: repeat-x;
     margin: 0;
     padding: 0;
+    color: #eee;
 }
 .main-container {
     margin: auto;
-    width: 887px;
+    width: 987px;
 }
 .header {
     text-align: center;
 }
+
 #top-left-image {
     position: absolute;
     left: 0;
@@ -37,13 +40,45 @@ body {
 .navigation, .navigation li {
     list-style: none;
     margin: 0;
-    padding: 10px 15px;
+    padding: 15px 5px;
 }
 .navigation {
     text-align: center;
-    border-top: 2px solid #aaa;
-    border-bottom: 2px solid #aaa;
-    margin-top: 10px;
+    margin: 10px;
+    padding-top: 120px;
+}
+.navigation li a {
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 29px;
+}
+.home_nav {
+    background-image: url('images/Home.png');
+    width: 94px;
+}
+.gigs_nav {
+    background-image: url('images/Gigs.png');
+    width: 70px;
+}
+.photo_nav {
+    background-image: url('images/Photos.png');
+    width: 128px;
+}
+.video_nav {
+    background-image: url('images/Videos.png');
+    width: 119px;
+}
+.music_nav {
+    background-image: url('images/Music.png');
+    width: 100px;
+}
+.info_nav {
+    background-image: url('images/Info.png');
+    width: 76px;
+}
+.store_nav {
+    background-image: url('images/Store.png');
+    width: 103px;
 }
 .navigation li {
     display: inline;
